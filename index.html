@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">Ikki</a>
+        <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#product">Product</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="main.png" alt="Home Image">
+        </div>
+        <div class="home-content">
+            <h1>Hi,It's <span>Ikki</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I create beautiful and functional websites that help businesses grow.</p>
+                <div class="social-icons">
+                    <a href="linkedin.com/in/muhammad-risqullah-6a26843b8"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Risqullah"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/risqi.iki__?igsh=OXZxNGdremhldTNx"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+    <section id="product" class="content-section">
+        <div class="section-wrapper">
+            <h2>Product</h2>
+            <p>Here you can showcase your work, features, or products in one place. A simple section for summarizing your best offerings.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="isomatric.png" alt="Isometric Project">
+                    <div class="product-details">
+                        <h3>Isometric Project</h3>
+                        <p>A clean showcase of a past project using isometric illustration style. Great for presenting design work or landing page visuals.</p>
+                        <button type="button" class="card-btn" id="open-modal">See details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal-overlay" id="image-modal">
+        <div class="modal-card">
+            <button type="button" class="modal-close" id="close-modal">×</button>
+            <img src="isomatric.png" alt="Isometric Project Full View">
+        </div>
+    </div>
+    <section id="about" class="content-section about-section">
+        <div class="section-wrapper about-layout">
+            <div class="about-copy">
+                <h2>About</h2>
+                <p>Hai, saya Ikki — seorang Game Designer, UI/UX Designer, dan 3D Modeler yang menghadirkan cerita visual dan pengalaman interaktif berkualitas.</p>
+                <p>Saya membuat konsep game, antarmuka yang intuitif, dan model 3D yang kuat. Karya saya fokus pada detail estetis, fungsi yang mudah dipahami, dan feel profesional.</p>
+                <div class="about-highlights">
+                    <div class="about-box">
+                        <p><strong>Siapa saya</strong></p>
+                        <p>Saya adalah desainer yang suka merancang pengalaman digital dengan karakter dan kedalaman visual. Saya selalu ingin membuat karya yang terasa hidup dan mudah dinikmati.</p>
+                    </div>
+                    <div class="about-box">
+                        <p><strong>Apa yang saya lakukan</strong></p>
+                        <ul>
+                            <li>Desain game</li>
+                            <li>3D modeling</li>
+                            <li>UI/UX design</li>
+                            <li>Creative visual storytelling</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="about-image-card">
+                    <img src="foto_muka_aing-removebg-preview.png" alt="Foto Ikki">
+                </div>
+            </div>
+        </div>
+        <div class="about-cards">
+            <div class="about-card">
+                <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                <h3>Game Designer</h3>
+                <p>Merancang mekanik, alur, dan dunia game yang menarik serta mudah dipahami.</p>
+            </div>
+            <div class="about-card">
+                <div class="card-icon"><i class="fas fa-cube"></i></div>
+                <h3>3D Modeling</h3>
+                <p>Membangun model 3D presisi untuk karakter, aset, dan lingkungan game.</p>
+            </div>
+            <div class="about-card">
+                <div class="card-icon"><i class="fas fa-pencil-ruler"></i></div>
+                <h3>UI/UX Design</h3>
+                <p>Mendesain antarmuka yang bersih, responsif, dan mudah digunakan.</p>
+            </div>
+            <div class="about-card">
+                <div class="card-icon"><i class="fas fa-globe"></i></div>
+                <h3>Creative Web</h3>
+                <p>Membangun presentasi online dengan tampilan visual yang kuat dan elegan.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="content-section service-section">
+        <div class="section-wrapper">
+            <div class="section-heading">
+                <h2>Services</h2>
+                <p>From game systems to immersive UI, I deliver creative services that help concepts become polished experiences.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Clean interfaces, intuitive flows, and game-ready screens built for usability and visual impact.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-cube"></i></div>
+                    <h3>3D Modeling</h3>
+                    <p>High-quality 3D assets for characters, props, and environments with optimized detail and style.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Game Design</h3>
+                    <p>Concepts, mechanics, and level ideas shaped for engaging player experiences and strong replay value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="content-section contact-section">
+        <div class="section-wrapper contact-layout">
+            <div class="contact-panel">
+                <div class="section-heading">
+                    <h2>Contact</h2>
+                    <p>Ready to build something creative? Send a message and let’s talk about your next project.</p>
+                </div>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <span>Email</span>
+                        <a href="mailto:ikki@example.com">ikki@example.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <span>Discord</span>
+                        <p>Ikki#1234</p>
+                    </div>
+                </div>
+                <div class="social-icons contact-social">
+                    <a href="linkedin.com/in/muhammad-risqullah-6a26843b8"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Risqullah"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/risqi.iki__?igsh=OXZxNGdremhldTNx"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input class="contact-input" type="text" placeholder="Your name" required>
+                <input class="contact-input" type="email" placeholder="Your email" required>
+                <textarea class="contact-input contact-textarea" rows="6" placeholder="Tell me about your project"></textarea>
+                <button type="submit" class="btn contact-btn">Send message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-wrapper">
+            <div>
+                <h3>Ikki Studio</h3>
+                <p>Creating polished digital experiences for games, UI, and 3D visuals.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#product">Product</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="footer-copy">© 2026 Ikki. Built with passion and strong visuals.</p>
+        </div>
+    </footer>
+    <script>
+        const navLinks = document.querySelectorAll('header nav a');
+        const sections = document.querySelectorAll('section[id]');
+
+        function updateActiveLink() {
+            const targetLine = window.scrollY + window.innerHeight / 3;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+                const link = document.querySelector(`header nav a[href="#${sectionId}"]`);
+
+                if (!link) return;
+
+                if (targetLine >= sectionTop && targetLine < sectionTop + sectionHeight) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        }
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.forEach(item => item.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+        const openModalBtn = document.getElementById('open-modal');
+        const closeModalBtn = document.getElementById('close-modal');
+        const imageModal = document.getElementById('image-modal');
+        openModalBtn.addEventListener('click', () => {
+            imageModal.classList.add('active');
+        });
+        closeModalBtn.addEventListener('click', () => {
+            imageModal.classList.remove('active');
+        });
+        imageModal.addEventListener('click', event => {
+            if (event.target === imageModal) {
+                imageModal.classList.remove('active');
+            }
+        });
+        window.addEventListener('scroll', updateActiveLink);
+        window.addEventListener('load', updateActiveLink);
+    </script>
+</body>
+</html>
